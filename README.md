@@ -101,12 +101,16 @@ the options object contains :
 
   - the method must return an object representing the next state : 
 
-    - {
-            current: currentState,
-            inputAlphabet,
-            error,  (string) 
-            nextState: the next state 
-       }
+    ```
+    {
+        current: current state,
+        inputAlphabet : current input alphabet
+        error,  (string)  
+        nextState: the next state 
+    }
+    ```
+    
+    
 
 
 
