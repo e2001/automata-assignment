@@ -1,0 +1,18 @@
+{
+  "name": "state-machine-tester",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A testbed for state machine",
+  "main": "src/stateMachine.js",
+  "scripts": {
+    "test": "mocha test/tests.js",
+    "test-debug": "mocha debug test/tests.js"
+  },
+  "author": "E",
+  "license": "",
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.3",
+    "sinon": "^7.5.0"
+  }
+}
